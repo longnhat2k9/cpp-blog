@@ -2,7 +2,7 @@
 
 Here I will save all learning material. All problems and contests judge by codeforces. In this page only save the learing material (not judge your solution here)
 
-Now I will show you how to use codeforces judge. First, you need to register an codeforces account. Click the link to go to the judge: [C++ Basic - Codeforces](https://cppbasic.contest.codeforces.com)
+Now I will show you how to use codeforces judge. First, you need to register an codeforces account. Click the link to go to the judge: [C++ Basic - Codeforces](https://cppbasic.contest.codeforces.com) or click to the "Judge" button at the top right corner
 
 Read the docs below to know how to use codeforces judge
 
