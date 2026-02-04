@@ -70,6 +70,11 @@
                     if (window.MathJax) {
                         MathJax.typesetPromise();
                     }
+
+                    // Thêm dòng này để tô màu lại code
+                    if (window.Prism) {
+                        Prism.highlightAllUnder(postContent);
+                    }
                 })
                 .catch(() => {
                     postContent.innerHTML = "<h2>404</h2><p>404 - Post not found.</p>";
