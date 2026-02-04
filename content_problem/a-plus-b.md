@@ -5,6 +5,8 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 1024MB
 
+Judge: [Contest Basic 1 - Problem 0](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/0)
+
 ---------------------------------------------------------------
 
 You are given two integers $a$ and $b$. Print $a+b$.
