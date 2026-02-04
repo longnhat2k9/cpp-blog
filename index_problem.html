@@ -49,7 +49,7 @@
         if (postName) {
             // HIỂN THỊ BÀI VIẾT CHI TIẾT
             postContent.classList.remove('hidden');
-            fetch(`./content/${postName}.md`)
+            fetch(`./content_problem/${postName}.md`)
                 .then(res => {
                     if(!res.ok) throw new Error();
                     return res.text();
@@ -63,7 +63,7 @@
         } else {
             // HIỂN THỊ TRANG CHỦ
             postList.classList.remove('hidden');
-            fetch('./posts.json')
+            fetch('./posts_problem.json')
                 .then(res => res.json())
                 .then(posts => {
                     if (posts.length === 0) {
