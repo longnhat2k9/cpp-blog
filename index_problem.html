@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']], // Cho phép viết toán giữa hai dấu $
+            displayMath: [['$$', '$$'], ['\\[', '\\]']] // Cho phép viết toán dạng khối giữa $$
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <body>
 
     <header>
@@ -56,6 +65,11 @@
                 })
                 .then(md => {
                     postContent.innerHTML = marked.parse(md);
+
+                    // Thêm dòng này để MathJax xử lý lại các công thức toán vừa được chèn vào
+                    if (window.MathJax) {
+                        MathJax.typesetPromise();
+                    }
                 })
                 .catch(() => {
                     postContent.innerHTML = "<h2>404</h2><p>404 - Post not found.</p>";
