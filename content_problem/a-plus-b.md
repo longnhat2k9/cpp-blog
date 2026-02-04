@@ -1,39 +1,49 @@
 # A + B
 ---------------------------------------------------------------
 
-Standard Input: 1s
+Input/ Output: stdin/ stdout
 
-Standard Output: 1024 MB
+Time Limit: 1s. Memory Limit: 1024MB
 
 ---------------------------------------------------------------
 
 You are given two integers $a$ and $b$. Print $a+b$.
 
 ## Input
----------------------------------------------------------------
 The only line of the input contains integers $a$ and $b$ ($-100 \le a,b \le 100$).
 
 ## Output
----------------------------------------------------------------
 Print $a+b$.
 
-## Sample Input
----------------------------------------------------------------
-
-```txt
+## Sample Input 1
+```
 7 8
+```
+
+## Sample Output 1
+```
+15
+```
+
+## Sample Input 2
+```
 -100 100
+```
+
+## Sample Output 2
+```
+0
+```
+
+## Sample Input 3
+```
 -7 -99
 ```
 
-## Sample Output
----------------------------------------------------------------
-```txt
-15
-0
+## Sample Output 3
+```
 -106
 ```
 
 ## Note
----------------------------------------------------------------
 In the first example, $a=7$ and $b=8$. Thus, the answer is $a+b=7+8=15$.
