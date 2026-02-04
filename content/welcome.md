@@ -2,11 +2,33 @@
 
 Here I will save all learning material. All problems and contests judge by codeforces. In this page only save the learing material (not judge your solution here)
 
+Now I will show you how to use material on this page
+
+==============================================
+
+## Home Page
+
+Here will show all the notification, update, bugs, news,.... Likes welcome page, introduce contest, introduce problem,....
+
+## Problem
+
+Here will save all the problemsets, testcase folder (zipped or in pdf), tutorial (editorial),...
+
+## Contest
+
+Here will save all the contests, contest time,.....
+
+## Judge
+
+Click this to redirect to codeforces judge
+
+==============================================
+
 Now I will show you how to use codeforces judge. First, you need to register an codeforces account. Click the link to go to the judge: [C++ Basic - Codeforces](https://cppbasic.contest.codeforces.com) or click to the "Judge" button at the top right corner
 
 Read the docs below to know how to use codeforces judge
 
-=======================
+==============================================
 
 ## Main page
 
