@@ -12,15 +12,15 @@ Difficult division
 
 |#|Name|Submit Link|
 |---|---|---|
-|0|A + B|Submit|
-|1|BMI|Submit|
-|2|Cross Country|Submit|
-|3.1|Square|Submit|
-|3.2|Square?|Submit|
-|4.1|Sublime Sequence|Submit|
-|4.2|Sublime Sequence 2|Submit|
-|5|A + B Again?|Submit|
-|6|To My Critics|Submit|
+|0|A + B|
+|1|BMI|
+|2|Cross Country|
+|3.1|Square|
+|3.2|Square?|
+|4.1|Sublime Sequence|
+|4.2|Sublime Sequence 2|
+|5|A + B Again?|
+|6|To My Critics|
 
 ## Complete Problemset
 
