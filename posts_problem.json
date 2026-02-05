@@ -1,11 +1,11 @@
 [
-  {"title": "Cross Country", "slug": "cross-country"},
-  {"title": "Square", "slug": "square"},
-  {"title": "Square?", "slug": "square2"},
   {"title": "Sublime Sequence", "slug": "sub-seq"},
   {"title": "Sublime Sequence 2", "slug": "sub-seq2"},
   {"title": "To My Critics", "slug": "to-my-critics"},
   {"title": "A + B Again?", "slug": "a-plus-b-again"},
   {"title": "A + B", "slug": "a-plus-b"},
-  {"title": "BMI", "slug": "bmi"}
+  {"title": "BMI", "slug": "bmi"},
+  {"title": "Cross Country", "slug": "cross-country"},
+  {"title": "Square", "slug": "square"},
+  {"title": "Square?", "slug": "square2"}
 ]
