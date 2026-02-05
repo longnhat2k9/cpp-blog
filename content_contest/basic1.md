@@ -10,7 +10,7 @@ Difficult division
 
 ## Problemset
 
-|#|Name|Submit Link|
+|#|Name|
 |---|---|---|
 |0|A + B|
 |1|BMI|
