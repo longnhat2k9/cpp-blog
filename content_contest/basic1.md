@@ -11,7 +11,7 @@ Difficult division
 ## Problemset
 
 |#|Name|
-|---|---|---|
+|---|---|
 |0|A + B|
 |1|BMI|
 |2|Cross Country|
