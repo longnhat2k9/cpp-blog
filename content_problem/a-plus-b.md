@@ -3,9 +3,9 @@
 
 Input/ Output: stdin/ stdout
 
-Time Limit: 1s. Memory Limit: 1024MB
+Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Contest Basic 1 - Problem 0](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/0)
+Judge: [Problem 0: A + B - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/0)
 
 ---------------------------------------------------------------
 
