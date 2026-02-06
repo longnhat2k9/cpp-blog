@@ -24,7 +24,7 @@ Difficult division
 
 ## Complete Problemset
 
-# A + B
+# 0. A + B
 ---------------------------------------------------------------
 
 Input/ Output: stdin/ stdout
@@ -76,7 +76,7 @@ Print $a+b$.
 ## Note
 In the first example, $a=7$ and $b=8$. Thus, the answer is $a+b=7+8=15$.
 
-# BMI
+# 1. BMI
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -158,7 +158,7 @@ Obesity
 Underweight
 ```
 
-# Cross Country
+# 2. Cross Country
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -206,7 +206,7 @@ SS
 invalid code
 ```
 
-# Square
+# 3.1. Square
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -244,7 +244,7 @@ NO
 YES
 ```
 
-# Square?
+# 3.2. Square?
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -300,7 +300,7 @@ In the second, third, and sixth test cases, we can make a square like this:
 
 ![](https://espresso.codeforces.com/e51fcf1a3ba1663730b9f7ce5a8427c0796be6ca.png)
 
-# Sublime Sequence
+# 4.1. Sublime Sequence
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -341,7 +341,7 @@ Output the sum of the sequence.
 442332000837659394
 ```
 
-# Sublime Sequence 2
+# 4.2. Sublime Sequence 2
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -382,7 +382,7 @@ For each test case, output the sum of all integers in the sequence.
 4
 ```
 
-# A + B Again?
+# 5. A + B Again?
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
@@ -427,7 +427,7 @@ For each test case, output a single integer~--- the sum of the digits of $n$.
 18
 ```
 
-# To My Critics
+# 6. To My Critics
 ---------------------------------------------------------------
 Input/ Output: stdin/ stdout
 
