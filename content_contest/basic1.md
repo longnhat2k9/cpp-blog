@@ -10,17 +10,17 @@ Difficult division
 
 ## Problemset
 
-|#|Name|
-|---|---|
-|0|A + B|
-|1|BMI|
-|2|Cross Country|
-|3.1|Square|
-|3.2|Square?|
-|4.1|Sublime Sequence|
-|4.2|Sublime Sequence 2|
-|5|A + B Again?|
-|6|To My Critics|
+|#|Name|Source|
+|---|---|---|
+|0|A + B||
+|1|BMI||
+|2|Cross Country||
+|3.1|Square|Codeforces Round 1062 (Div.4) - Problem A|
+|3.2|Square?|Codeforces Round 1062 (Div.4) - Problem A|
+|4.1|Sublime Sequence|Codeforces Round 1050 (Div.4) - Problem A|
+|4.2|Sublime Sequence 2|Codeforces Round 1050 (Div.4) - Problem A|
+|5|A + B Again?|Codeforces Round 964 (Div.4) - Problem A|
+|6|To My Critics|Codeforces Round 886 (Div.4) - Problem A|
 
 ## Complete Problemset
 
