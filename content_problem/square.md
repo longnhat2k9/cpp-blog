@@ -6,6 +6,8 @@ Time Limit: 1s. Memory Limit: 256MB
 
 Judge: [Problem 3.1: Square - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/3.1)
 
+Source: Codeforces Round 1062 (Div.4) - Problem A
+
 ---------------------------------------------------------------
 
 Give you $4$ sticks with the length of each stick $a,b,c,d$. You can't break or bend any stick; determine whether or not to make a square with these sticks.

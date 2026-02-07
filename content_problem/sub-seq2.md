@@ -6,6 +6,8 @@ Time Limit: 1s. Memory Limit: 256MB
 
 Judge: [Problem 4.2: Sublime Sequence 2 - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/4.2)
 
+Source: Codeforces Round 1050 (Div.4) - Problem A
+
 ---------------------------------------------------------------
 
 Farmer John has an integer $x$. He creates a sequence of length $n$ by alternating integers $x$ and $−x$, starting with $x$.

@@ -6,6 +6,8 @@ Time Limit: 1s. Memory Limit: 256MB
 
 Judge: [Problem 3.2: Square? - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/3.2)
 
+Source: Codeforces Round 1062 (Div.4) - Problem A
+
 ---------------------------------------------------------------
 
 You are given $4$ sticks of lengths $a, b, c,$ and $d$. You can not break or bend them.
