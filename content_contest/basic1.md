@@ -10,17 +10,17 @@ Difficult division
 
 ## Problemset
 
-|#|Name|
-|---|---|
-|0|A + B|
-|1|BMI|
-|2|Cross Country|
-|3.1|Square|
-|3.2|Square?|
-|4.1|Sublime Sequence|
-|4.2|Sublime Sequence 2|
-|5|A + B Again?|
-|6|To My Critics|
+|#|Name|Source|
+|---|---|---|
+|0|A + B||
+|1|BMI||
+|2|Cross Country||
+|3.1|Square|Codeforces Round 1062 (Div.4) - Problem A|
+|3.2|Square?|Codeforces Round 1062 (Div.4) - Problem A|
+|4.1|Sublime Sequence|Codeforces Round 1050 (Div.4) - Problem A|
+|4.2|Sublime Sequence 2|Codeforces Round 1050 (Div.4) - Problem A|
+|5|A + B Again?|Codeforces Round 964 (Div.4) - Problem A|
+|6|To My Critics|Codeforces Round 886 (Div.4) - Problem A|
 
 ## Complete Problemset
 
@@ -31,7 +31,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 0: A + B - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/0)
+Judge: [Problem 0: A + B - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/0)
 
 ---------------------------------------------------------------
 
@@ -82,7 +82,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 1: BMI - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/1)
+Judge: [Problem 1: BMI - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/1)
 
 ---------------------------------------------------------------
 
@@ -164,7 +164,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 2: Cross Country - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/2)
+Judge: [Problem 2: Cross Country - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/2)
 
 ---------------------------------------------------------------
 Given a two character code, decide if the code represents either:
@@ -212,7 +212,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 3.1: Square - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/3.1)
+Judge: [Problem 3.1: Square - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/3.1)
 
 ---------------------------------------------------------------
 
@@ -250,7 +250,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 3.2: Square? - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/3.2)
+Judge: [Problem 3.2: Square? - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/3.2)
 
 ---------------------------------------------------------------
 
@@ -306,7 +306,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 4.1: Sublime Sequence - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/4.1)
+Judge: [Problem 4.1: Sublime Sequence - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/4.1)
 
 ---------------------------------------------------------------
 
@@ -347,7 +347,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 4.2: Sublime Sequence 2 - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/4.2)
+Judge: [Problem 4.2: Sublime Sequence 2 - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/4.2)
 
 ---------------------------------------------------------------
 
@@ -388,7 +388,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 5: A + B Again? - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/5)
+Judge: [Problem 5: A + B Again? - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/5)
 
 ---------------------------------------------------------------
 
@@ -433,7 +433,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 6: To My Critics - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/6)
+Judge: [Problem 6: To My Critics - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/6)
 
 ---------------------------------------------------------------
 Suneet has three digits $a$, $b$, and $c$. 

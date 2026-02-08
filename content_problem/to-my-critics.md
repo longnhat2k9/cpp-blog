@@ -4,8 +4,9 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 6: To My Critics - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/6)
+Judge: [Problem 6: To My Critics - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/6)
 
+Source: Codeforces Round 886 (Div.4) - Problem A
 ---------------------------------------------------------------
 Suneet has three digits $a$, $b$, and $c$. 
 

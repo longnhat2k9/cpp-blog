@@ -4,7 +4,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 2: Cross Country - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/2)
+Judge: [Problem 2: Cross Country - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/2)
 
 ---------------------------------------------------------------
 Given a two character code, decide if the code represents either:

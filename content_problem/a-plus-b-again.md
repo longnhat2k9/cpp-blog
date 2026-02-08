@@ -4,7 +4,9 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 5: A + B Again? - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/5)
+Judge: [Problem 5: A + B Again? - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/5)
+
+Source: Codeforces Round 964 (Div.4) - Problem A
 
 ---------------------------------------------------------------
 
