@@ -4,7 +4,7 @@
 
 Input/ Output: stdin/ stdout
 
-Time Limit/ Memory Limit: 1s/ 256MB
+Time Limit/ Memory Limit: 15s/ 256MB
 
 Judge: [Problem G - Contest: Basic 2](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/670558/submit/G)
 
@@ -20,3 +20,14 @@ Give you an array $a$ of the length $n$. Output the smallest number.
 ## Output
 
 The smallest number in the array
+
+## Sample Input
+```
+6
+15 20 11 24 59 32
+```
+
+## Sample Output
+```
+11
+```

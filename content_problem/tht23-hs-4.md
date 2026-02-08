@@ -4,7 +4,7 @@
 
 Input/ Output: stdin/ stdout
 
-Time Limit/ Memory Limit: 1s/ 256MB
+Time Limit/ Memory Limit: 15s/ 256MB
 
 Judge: [Problem H - Contest: Basic 2](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/670558/submit/H)
 
@@ -22,3 +22,14 @@ Give you an array $a$ of length $n$. Output the sum of the even number add the o
 ## Output
 
 Output the sum of the even number add the odd location.
+
+## Sample Input
+```
+6
+15 20 11 24 59 32
+```
+
+## Sample Output
+```
+0
+```

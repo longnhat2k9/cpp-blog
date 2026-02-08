@@ -19,3 +19,28 @@ $2$ integer number $a$ and $b$ $(1 \le a, b \le 10^6)$ separated by a space
 ## Output
 Each lines output an answer for each operation. (Line 1: Plus, Line 2: Minus, Line 3: Multiple, Line 4: Division).
 
+## Sample Input 1
+```
+10 5
+```
+
+## Sample Output 1
+```
+15
+5
+50
+2.0000
+```
+
+## Sample Input 2
+```
+4 3
+```
+
+## Sample Output 2
+```
+7
+1
+12
+1.3333
+```

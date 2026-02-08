@@ -17,3 +17,28 @@ An integer number $n$ $(1 < n \le 10^6)$
 ## Output
 Output "YES" if $n$ is a prime number, else output "NO"
 
+## Sample Input 1
+```
+3
+```
+## Sample Output 1
+```
+YES
+```
+## Sample Input 2
+```
+1
+```
+## Sample Output 2
+```
+NO
+```
+## Sample Input 3
+```
+4
+```
+## Sample Output 3
+```
+NO
+```
+

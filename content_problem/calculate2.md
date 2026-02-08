@@ -23,3 +23,36 @@ $3$ integer number $o$ $(1 \le o \le 4)$, $a$ and $b$ $(1 \le a, b \le 10^6)$ se
 
 ## Output
 Answer of the problem.
+
+## Sample Input 1
+```
+1 3 2
+```
+## Sample Output 1
+```
+5
+```
+## Sample Input 2
+```
+2 3 2
+```
+## Sample Output 2
+```
+1
+```
+## Sample Input 3
+```
+3 3 2
+```
+## Sample Output 3
+```
+6
+```
+## Sample Input 4
+```
+4 3 2
+```
+## Sample Output 4
+```
+1.5000
+```

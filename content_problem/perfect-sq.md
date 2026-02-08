@@ -17,3 +17,19 @@ An integer number $n$ $(1 < n \le 10^9)$
 ## Output
 Output "YES" if $n$ is a prime number, else output "NO"
 
+## Sample Input 1
+```
+2
+```
+## Sample Output 1
+```
+NO
+```
+## Sample Input 2
+```
+4
+```
+## Sample Output 2
+```
+YES
+```

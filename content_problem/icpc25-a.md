@@ -33,3 +33,13 @@ In this problem, you get a single integer p, you need to state the p-th item in 
 The input consists of a single integer $p$ $(1 \le p \le 5)$.
 ## Output
 Print out the p-th item in the ICPC contestant’s oath.
+
+## Sample Input
+```
+1
+```
+
+## Sample Output
+```
+Uphold integrity and ethics throughout the contest.
+```
