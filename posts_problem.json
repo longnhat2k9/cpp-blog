@@ -1,8 +1,4 @@
 [
-  {"title": "A + B", "slug": "a-plus-b"},
-  {"title": "Biggest Number", "slug": "biggest"},
-  {"title": "BMI", "slug": "bmi"},
-  {"title": "Calculate 1", "slug": "calculate1"},
   {"title": "Calculate 2", "slug": "calculate2"},
   {"title": "Cross Country", "slug": "cross-country"},
   {"title": "Adherence to the Oath", "slug": "icpc25-a"},
@@ -15,5 +11,9 @@
   {"title": "Sublime Sequence 2", "slug": "sub-seq2"},
   {"title": "Even Odd Sum", "slug": "tht23-hs-4"},
   {"title": "To My Critics", "slug": "to-my-critics"},
-  {"title": "A + B Again?", "slug": "a-plus-b-again"}
+  {"title": "A + B Again?", "slug": "a-plus-b-again"},
+  {"title": "A + B", "slug": "a-plus-b"},
+  {"title": "Biggest Number", "slug": "biggest"},
+  {"title": "BMI", "slug": "bmi"},
+  {"title": "Calculate 1", "slug": "calculate1"}
 ]
