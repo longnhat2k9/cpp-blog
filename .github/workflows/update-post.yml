@@ -21,26 +21,6 @@ jobs:
           done
           sed -i '$ s/,$//' posts.json
           echo "]" >> posts.json
-      - name: Generate posts_problem.json
-        run: |
-          echo "[" > posts_problem.json
-          for file in $(ls content_problem/*.md -1t); do
-            filename=$(basename "$file" .md)
-            title=$(head -n 1 "$file" | sed 's/# //')
-            echo "  {\"title\": \"$title\", \"slug\": \"$filename\"}," >> posts_problem.json
-          done
-          sed -i '$ s/,$//' posts_problem.json
-          echo "]" >> posts_problem.json
-      - name: Generate posts_contest.json
-        run: |
-          echo "[" > posts_contest.json
-          for file in $(ls content_contest/*.md -1t); do
-            filename=$(basename "$file" .md)
-            title=$(head -n 1 "$file" | sed 's/# //')
-            echo "  {\"title\": \"$title\", \"slug\": \"$filename\"}," >> posts_contest.json
-          done
-          sed -i '$ s/,$//' posts_contest.json
-          echo "]" >> posts_contest.json
       - name: Generate posts_docs.json
         run: |
           echo "[" > posts_docs.json
