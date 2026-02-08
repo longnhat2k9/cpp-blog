@@ -4,7 +4,7 @@ Input/ Output: stdin/ stdout
 
 Time Limit: 1s. Memory Limit: 256MB
 
-Judge: [Problem 4.1: Sublime Sequence - Contest: Basic 1](https://codeforces.com/group/uPfoQRWoHp/contest/663652/problem/4.1)
+Judge: [Problem 4.1: Sublime Sequence - Contest: Basic 1](https://cppbasic.contest.codeforces.com/group/uPfoQRWoHp/contest/663652/submit/4.1)
 
 Source: Codeforces Round 1050 (Div.4) - Problem A
 
