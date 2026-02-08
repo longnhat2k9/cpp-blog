@@ -36,8 +36,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add posts.json
-          git add posts_contest.json
           git add posts_docs.json
-          git add posts_problem.json
           git commit -m "Bot: Cập nhật danh sách bài viết" || exit 0
           git push
