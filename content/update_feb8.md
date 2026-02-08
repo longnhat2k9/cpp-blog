@@ -13,4 +13,4 @@
 + Febuary 5th Update
 
 ## Remove Data
-+ Problem and Contest (because the judge contains all that data)
++ All Problem and Contest (because the judge contains all that data)
