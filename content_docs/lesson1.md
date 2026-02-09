@@ -1,6 +1,6 @@
 # Lesson 1
 
-## Code C++ Syntax
+## I. Code C++ Syntax
 ```cpp
 #include<iostream>
 using namespace std;
@@ -13,7 +13,7 @@ int main()
 }
 ```
 
-## Data types - Variable - Declaring Variable
+## II. Data types - Variable - Declaring Variable - Base Math Arithmetic
 
 ### 1. Data Types
 
@@ -31,7 +31,7 @@ int main()
 
 ### 2. Variable - Declaring Variable
 
-### Declaring Variable Syntax
+#### Declaring Variable Syntax
 
 ```cpp
 <datatype> <variable_name>; // Base Declare
@@ -44,7 +44,7 @@ Variable name rules:
 - **Not** contain any special character (like @, #, $, %, &,....) or space exept the dash (-)
 - Choose variable **fit or bigger** than the value you want to save or declare with
 
-### Example
+#### Example
 
 ```cpp
 #include<iostream>
@@ -63,8 +63,23 @@ int main()
     return 0;
 }
 ```
+### 3. Base Math Arithmetic
 
-## If-else statement
+**Plus:** ```+```
+
+**Minus:** ```-```
+
+**Multiple:** ```*```
+
+**Divide:** ```\```
+
+**Modulo:** ```%```
+
+**Note:** 
+- Modulo **only** use for **integer** number
+- Divide will return the **integer** number if the number you use is integer (**even if** you use two numbers have **modulo not equal to 0**)
+
+## III. If-else statement
 
 ### 1. Syntax
 
@@ -101,7 +116,7 @@ else
 }
 ```
 
-#### Example
+### 2. Example
 
 ```cpp
 #include<iostream>
@@ -129,10 +144,9 @@ int main()
 }
 ```
 
-## For Loop
-### Base for loop:
+## IV. For Loop - Base for loop:
 
-#### Syntax
+### 1. Syntax
 ```cpp
 
 for(/*start*/; /*stop*/; /*value change*/)
@@ -147,7 +161,7 @@ for(/*start*/; /*stop*/; /*value change*/)
 - **Stop:** Write a condition for variable (if condition true -> code in the loop will continue running, else code in the loop will stop)
 - **Value Change:** Use any math equation to change your variable, the value after change will determine whether or not the code will run with the condition in the stop statement
 
-#### Example
+### 2. Example
 
 ```cpp
 #include<iostream>
