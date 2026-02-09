@@ -10,17 +10,13 @@ Now I will show you how to use material on this page
 
 Here will show all the notification, update, bugs, news,.... Likes welcome page, introduce contest, introduce problem,....
 
-## Problem
+## Document
 
-Here will save all the problemsets, testcase folder (zipped or in pdf), tutorial (editorial),...
-
-## Contest
-
-Here will save all the contests, contest time,.....
+Here will show all the lesson Document
 
 ## Judge
 
-Click this to redirect to codeforces judge
+Click this to redirect to codeforces judge. In the judge will contain all the problems and contests.
 
 ==============================================
 
@@ -30,20 +26,12 @@ Read the docs below to know how to use codeforces judge
 
 ==============================================
 
-## Main page
-
-### 1. Blogs
-Where all the theories will show here, sometimes maybe some note or some notification.
-
-### 2. Contests
+## Contest
 Here is where all the contests and problems to practice show.
 In each contest you will see 2 lines with blue text:
 
 - Enter: See all problems in the contest, if contest isn't end, this lines is a green button with white text
 - Virtual participation: You want to participate contest like you are participate is on time, click it. This line only show after contest end.
-
-### 3. Status
-Here will show your submission status
 
 ## Problem/ Contest page
 
@@ -70,4 +58,3 @@ Your rank in the contest
 
 ### 6. Custom Inovation
 Small IDE for you to test with the judge
-
