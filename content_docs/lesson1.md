@@ -13,7 +13,7 @@ int main()
 }
 ```
 
-## II. Data types - Variable - Declaring Variable - Base Math Arithmetic
+## II. Data types - Variable - Declaring Variable - Base Math Arithmetic - Comparision Arithmetic
 
 ### 1. Data Types
 
@@ -29,6 +29,7 @@ int main()
 
 - **string**: store a sequence of characters 
 
+- **bool**: Store ```true``` or ```false```
 ### 2. Variable - Declaring Variable
 
 #### Declaring Variable Syntax
@@ -43,6 +44,7 @@ Variable name rules:
 - **Only** start with a text character [a-z] or [A-Z]
 - **Not** contain any special character (like @, #, $, %, &,....) or space exept the dash (-)
 - Choose variable **fit or bigger** than the value you want to save or declare with
+- A bool variable can save a value from answer of comparision statement or condition
 
 #### Example
 
@@ -78,6 +80,18 @@ int main()
 **Note:** 
 - Modulo **only** use for **integer** number
 - Divide will return the **integer** number if the number you use is integer (**even if** you use two numbers have **modulo not equal to 0**)
+
+### 4. Comparision Arithmetic
+
+**Better:** ```>```
+
+**Smaller:** ```<```
+
+**Better or Equal:** ```>=```
+
+**Smaller or Equal:** ```<=```
+
+**Equal:** ```==```
 
 ## III. If-else statement
 

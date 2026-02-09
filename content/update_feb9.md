@@ -5,4 +5,4 @@ Add color and gray block for code
 
 ## Docs
 - Add syntax, note for lesson 1
-- Add base math arithmetic for lesson 1
+- Add base math arithmetic and comparision arithmetic for lesson 1
