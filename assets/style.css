@@ -51,3 +51,23 @@ footer { text-align: center; padding: 30px; background: #fafafa; color: #999; fo
 
 /* Post Detail Markdown Styling */
 .post-detail img { max-width: 100%; border-radius: 8px; }
+
+/* Tùy chỉnh khối code đa dòng */
+pre[class*="language-"] {
+    background: #f5f5f5 !important; /* Màu nền xám nhạt */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    overflow: auto;
+}
+
+/* Tùy chỉnh code inline (mã nằm trong dòng văn bản) */
+:not(pre) > code[class*="language-"],
+code:not([class*="language-"]) {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #d63384; /* Màu chữ cho code inline */
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
