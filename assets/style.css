@@ -71,3 +71,28 @@ code:not([class*="language-"]) {
     color: #d63384; /* Màu chữ cho code inline */
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
 }
+
+/* Table Styling */
+.post-detail table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp các đường viền lại làm một */
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.post-detail th, 
+.post-detail td {
+    border: 1px solid #ddd; /* Màu đường viền xám nhạt */
+    padding: 12px 15px;
+}
+
+.post-detail th {
+    background-color: #f8f8f8; /* Màu nền cho hàng tiêu đề */
+    font-weight: bold;
+}
+
+/* Hiệu ứng di chuột cho các hàng trong bảng (tùy chọn) */
+.post-detail tr:hover {
+    background-color: #fcfcfc;
+}
