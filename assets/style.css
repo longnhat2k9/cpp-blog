@@ -7,12 +7,12 @@
     --border-color: #eaeaea;
     --link-color: #0070f3;
     
-    /* Màu nền Code Block (Light) */
+    /* Code Block (Light) */
     --code-bg: #f6f8fa;
     --inline-code-bg: #eff1f3;
     --inline-code-text: #d63384;
     
-    /* Màu Syntax Prism (Light) */
+    /* Syntax Prism (Light) */
     --token-comment: #6a737d;
     --token-keyword: #d73a49;
     --token-string: #032f62;
@@ -32,12 +32,12 @@
         --border-color: #30363d;
         --link-color: #58a6ff;
         
-        /* Màu nền Code Block (Dark) */
+        /* Code Block (Dark) */
         --code-bg: #161b22;
         --inline-code-bg: #2d333b;
         --inline-code-text: #ff79c6;
         
-        /* Màu Syntax Prism (Dark) */
+        /* Syntax Prism (Dark) */
         --token-comment: #8b949e;
         --token-keyword: #ff7b72;
         --token-string: #a5d6ff;
@@ -58,6 +58,7 @@ body {
     display: flex; flex-direction: column; min-height: 100vh;
 }
 
+/* 3. Header */
 header {
     background-color: var(--header-bg);
     border-bottom: 1px solid var(--border-color);
@@ -76,17 +77,40 @@ nav a {
     color: var(--text-color); font-weight: 500; opacity: 0.8;
 }
 
-/* 3. Main & Table */
+nav a:hover { color: var(--link-color); opacity: 1; }
+
+/* 4. Main Content & List (Khôi phục danh sách bài viết) */
 main { 
     flex: 1; max-width: 800px; margin: 40px auto; 
     padding: 0 20px; width: 100%; box-sizing: border-box; 
 }
 
-.hidden { display: none; }
+.hidden { display: none !important; } /* Đảm bảo ẩn đúng cách khi có post chi tiết */
+
 .section-title { 
     font-size: 1.5rem; margin-bottom: 20px; 
     border-left: 4px solid var(--section-title-color); padding-left: 15px; 
+    color: var(--text-color);
 }
+
+#list-container { list-style: none; padding: 0; margin: 0; }
+
+#list-container li { 
+    padding: 15px 0; 
+    border-bottom: 1px dashed var(--border-color); 
+}
+
+#list-container a { 
+    font-size: 1.2rem; 
+    color: var(--link-color); 
+    text-decoration: none; 
+    font-weight: 500;
+}
+
+#list-container a:hover { text-decoration: underline; }
+
+/* 5. Post Detail & Table */
+.post-detail img { max-width: 100%; border-radius: 8px; }
 
 .post-detail table {
     width: 100%; border-collapse: collapse; margin: 20px 0;
@@ -99,14 +123,12 @@ main {
 
 .post-detail th { background-color: var(--table-header); font-weight: bold; }
 
-/* 4. TRIỆT TIÊU BÓNG CHỮ (TEXT-SHADOW) VÀ FIX CODE BLOCK */
-/* Sử dụng selector cực mạnh để ép Prism bỏ bóng chữ */
+/* 6. Code Block - Fix bóng chữ và màu sắc */
 code[class*="language-"],
 pre[class*="language-"],
 pre[class*="language-"] *,
 code[class*="language-"] * {
-    text-shadow: none !important;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-shadow: none !important; /* Triệt tiêu bóng chữ hoàn toàn */
 }
 
 .post-detail pre[class*="language-"] {
@@ -119,16 +141,14 @@ code[class*="language-"] * {
     overflow: auto;
 }
 
-/* Định nghĩa lại màu sắc cho các Token */
-.token.comment, .token.prolog, .token.doctype, .token.cdata { color: var(--token-comment); font-style: italic; }
-.token.punctuation { color: var(--text-color); opacity: 0.7; }
-.token.namespace { opacity: .7; }
-.token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol, .token.deleted { color: var(--token-keyword); }
-.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted { color: var(--token-string); }
-.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string { color: var(--token-operator); }
-.token.atrule, .token.attr-value, .token.keyword { color: var(--token-keyword); font-weight: bold; }
-.token.function, .token.class-name { color: var(--token-function); }
-.token.regex, .token.important, .token.variable { color: var(--token-operator); }
+/* Các Token Prism */
+.token.comment { color: var(--token-comment); font-style: italic; }
+.token.keyword { color: var(--token-keyword); font-weight: bold; }
+.token.string { color: var(--token-string); }
+.token.function { color: var(--token-function); }
+.token.operator { color: var(--token-operator); }
+.token.number, .token.boolean { color: var(--token-keyword); }
+.token.punctuation { color: var(--text-color); opacity: 0.6; }
 
 /* Code inline */
 :not(pre) > code[class*="language-"],
@@ -137,10 +157,9 @@ code:not([class*="language-"]) {
     padding: 2px 6px;
     border-radius: 4px;
     color: var(--inline-code-text);
-    text-shadow: none !important;
 }
 
-/* 5. Footer */
+/* 7. Footer */
 footer { 
     text-align: center; padding: 30px; 
     background: var(--footer-bg); color: #888; 
