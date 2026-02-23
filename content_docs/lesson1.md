@@ -111,6 +111,10 @@ if(/*conditon*/)
 {
     /*code*/
 }
+else
+{
+    /*code 2*/
+}
 ```
 
 #### 2 (or more) conditon + another case 
